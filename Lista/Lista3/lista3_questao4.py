@@ -1,6 +1,4 @@
-#ler comprimento de 3 retas
-#informe ao usuario : podem ou não formar triangulo
-# Para triangulo => uma das retas maior que a soma das outras 2
+#Fiz de acordo com o teorema matematico, que CADA reta deve ser MENOR que a soma dos lados do triangulo
 
 reta1=float(input("Digite o tamanho da reta1\n"))
 reta2=float(input("Digite o tamanho da reta2\n"))
@@ -22,8 +20,3 @@ if(relacao1 and relacao2 and relacao3): print("é um triangulo\n")
 else: print("Não é um triangulo")
 
 
-
-#if (reta1>relacao1) and (reta2>relacao2) : print("Forma um triangulo")
-#elif (reta1>relacao1) and (reta3>relacao3) : print("Forma um triangulo")
-#elif (reta2>relacao2) and (reta3>relacao3): print("Forma um triangulo")
-#else: print("Não forma um triangulo")
